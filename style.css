@@ -23,7 +23,7 @@ nav {
   margin: 20px;
 }
 .nav-menu {
-  font-size: 15px;
+  font-size: 20px;
   display: flex;
   justify-content: space-around;
 }
@@ -43,7 +43,7 @@ header {
   background-color:darkgreen;
 }
 .header-title {
-  width: 30%;
+  width: 50%;
   color: white;
   font-size: 50px;
   text-align: center;
@@ -85,11 +85,13 @@ main {
   margin: 15px;
   background-color: darkolivegreen;
   font-style:initial;
+  font-weight: bold;
 }
 .main-content {
   font-size: 15px;
   margin: 4px;
-  color:bisque
+  color:bisque;
+  font-weight:400;
 }
 main img {
   border-radius: 50%;
@@ -99,7 +101,7 @@ main img {
 /* footer */
 footer {
   padding: 15px 25px;
-  background-color:greenyellow;
+  background-color:lightgoldenrodyellow;
   display:flex;
   align-items: center;
   bottom:0;
@@ -109,13 +111,15 @@ footer {
 footer > div {
   text-align: center;
   padding: 8px;
+  font-weight: bold;
 }
 footer > ul {
   width: 80%;
 }
-footer > ul > li{
+footer > ul > li {
   list-style: none;
   font-size:12px;
+  font-weight: bold;
   
 }
 
